@@ -34,7 +34,7 @@ const CheckoutItem = ({
         </div>
         <p className="text-xs my-2 line-clamp-3">{description}</p>
         <div className="mb-5">
-          <Currency quantity={price} currency="GBP" />
+          <Currency quantity={price} currency="INR" />
           {hasPrime && (
             <div className="flex items-center space-x-2">
               <img
